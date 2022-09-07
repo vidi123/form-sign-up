@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniProject Form</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Sign Up</h1>
+        <form action="http://httpbin.org/post" method="post">
+            <input type="text" name="first-name" id="first-name" placeholder="Nama Depan" autocomplete="off" required>
+            <input type="text" name="age" id="age" placeholder="Nama Belakang" autocomplete="off" required>
+            <input type="email" name="birthdate" id="birthdate" placeholder="Email" autocomplete="off" required>
+            <input type="tel" name="no-telepon" pattern="\d\d\d\d\d\d\d\d\d\d\d\d" placeholder="No. Telpon" autocomplete="off" required>
+            <input type="password" name="password" placeholder="Password" autocomplete="off" required>
+            <input type="password" name="confirm" placeholder="Konfirmasi Password" autocomplete="off" required>
+            <input type="submit" id="submit" value="Create Account">
+        </form>
+    </div>
+
+</body>
+</html>
