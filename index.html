@@ -18,12 +18,12 @@
         <div class="container-form">
             <h2>Sign Up</h1>
             <form action="http://httpbin.org/post" method="post">
-                <input type="text" id="first-name" placeholder="Nama Depan" autocomplete="off" required>
-                <input type="text" id="second-name" placeholder="Nama Belakang" autocomplete="off" required>
-                <input type="email" id="email" placeholder="Email" autocomplete="off" required>
-                <input type="tel" pattern="\d\d\d\d\d\d\d\d\d\d\d\d" placeholder="No. Telpon" autocomplete="off" required>
-                <input type="password" id="password" placeholder="Password" autocomplete="off" required>
-                <input type="password" id="password2" placeholder="Konfirmasi Password" autocomplete="off" required>
+                <input type="text" name="name-first" id="first-name" placeholder="Nama Depan" autocomplete="off" required>
+                <input type="text" name="name-second" id="second-name" placeholder="Nama Belakang" autocomplete="off" required>
+                <input type="email" name="user-email" id="email" placeholder="Email" autocomplete="off" required>
+                <input type="tel" name="no.telepon" placeholder="No. Telpon" autocomplete="off" required>
+                <input type="password" name="password" id="password" placeholder="Password" autocomplete="off" required>
+                <input type="password" name="password-confirm" id="password2" placeholder="Konfirmasi Password" autocomplete="off" required>
                 <span id="confirm"></span>
                 <input id="submit" value="Create Account" onclick="valid()">
             </form>
